@@ -51,7 +51,7 @@ mask_Original = Brain_Mask_DBSFullCoverage;
 [SzX, SzY, SzZ SzQ] = size(B1_Original);%2D
 
 % Select the downsampling factor
-DownSamplingFactor = 5; 
+DownSamplingFactor = 3; 
 
 %Resizing the B1 maps
 B1_resized = B1_Original(1 : DownSamplingFactor : SzX, 1 : DownSamplingFactor : SzY, 1 : DownSamplingFactor : SzZ, :); %3D
